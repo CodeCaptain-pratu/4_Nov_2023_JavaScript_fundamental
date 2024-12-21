@@ -1,0 +1,9 @@
+QUESTION:Write a JavaScript program that calculates the simple interest using the formula Simple interest =
+(principal * rate * time) / 100.
+Answer:
+
+let principal=5000;
+let rate=10;
+let time=2;
+let SimpleInterest = Math.floor((principal*rate*time)/2);
+console.log("The SimpleInterest =  ",SimpleInterest);
