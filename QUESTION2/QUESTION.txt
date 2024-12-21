@@ -1,0 +1,67 @@
+QUESTION:Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+Answer : 
+In JavaScript, operators can be categorized based on their functionality into the following categories:
+1. Arithmetic Operators:
+- These operators are used to perform mathematical operations like addition, subtraction, multiplication, division, etc
+- Examples:
+- Addition: `a + b`
+- Subtraction: `a - b`
+- Multiplication: `a * b`
+- Division: `a / b`
+- Modulus: `a % b`
+
+2. Assignment Operators:
+- These operators are used to assign a value to a variable
+- Examples:
+- Assignment: `a = b`
+- Addition and assignment: `a += b`
+- Subtraction and assignment: `a -= b`
+- Multiplication and assignment: `a *= b`
+- Division and assignment: `a /= b`
+- Modulus and assignment: `a %= b`
+
+3. Comparison Operators:
+- These operators are used to compare two values
+- Examples:
+- Equal to: `a == b`
+- Not equal to: `a != b`
+- Greater than: `a > b`
+- Less than: `a < b`
+- Greater than or equal to: `a >= b`
+- Less than or equal to: `a <= b`
+
+4. Logical Operators:
+- These operators are used to perform logical operations like AND, OR, NOT
+- Examples:
+- AND: `a && b`
+- OR: `a || b`
+- NOT: `!a`
+
+5. Bitwise Operators:
+- These operators are used to perform bitwise operations like AND, OR, XOR, NOT
+- Examples:
+- AND: `a & b`
+- OR: `a | b`
+- XOR: `a ^ b`
+- NOT: `~a`
+
+6. String Operators:
+- These operators are used to concatenate strings
+- Examples:
+- Concatenation: `a + b`
+
+7. Conditional Operators:
+- These operators are used to perform conditional operations like ternary operator
+- Examples:
+- Ternary operator: `a ? b : c`
+
+8. Unary Operators:
+- These operators are used to perform operations on a single operand
+- Examples:
+- Increment: `a++`
+- Decrement: `a--`
+- Negation: `-a`
+
+9. Ternary Operator:
+- This operator is used to perform a conditional operation
+- Example: `a ? b : c`
