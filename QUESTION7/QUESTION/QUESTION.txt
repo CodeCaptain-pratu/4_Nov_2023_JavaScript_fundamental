@@ -1,0 +1,6 @@
+QUESTION:Write a program in JavaScript to calculate the area of a circle given its radius value of 10. Use appropriate arithmetic operators.
+Answer:
+Const pi=3.14;
+let r=5//cm;
+let areaOfCircle=pi*r*r;
+console.log("area if circle = ",areaOfCircle);
