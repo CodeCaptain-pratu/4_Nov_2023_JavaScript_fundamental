@@ -1,0 +1,103 @@
+QUESTION:Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Answer:
+In JavaScript, operators can be classified into three categories based on the number of operands they operate on:
+Unary operators operate on a single operand. They modify the value of the operand in some way. Here are some examples of unary operators in JavaScript:
+
+1. Increment operator (++): This operator increments the value of a variable by 1.
+var x=5; var y=++x; console.log(y); //output:6
+
+2. Decrement operator (--): This operator decrements the value of a variable by 1.
+var x=5; var y=--x; console.log(y); //output:4
+
+3. Negation operator (-): This operator returns the negative of a number.
+var x=5; var y=-x; console.log(y); //output:-5
+
+4. Bitwise NOT operator (~): This operator returns the bitwise complement of a number.
+var x=5; var y=~x; console.log(y); //output:-6
+
+5. typeof operator: This operator returns the data type of a variable.
+var x=5; var y=typeof x; console.log(y); //output:"number"
+
+6. delete operator: This operator deletes a property from an object.
+var obj={a:1,b:2}; delete obj.b; console.log(obj); //output{a:1}
+
+7. void operator: This operator returns undefined.
+var x=5; var y=void x; console.log(y); //output:undefined
+
+8. + operator (unary plus): This operator converts a string to a number.
+var x="5"; var y=+x; console.log(y); //output:5
+
+
+Binary operators operate on two operands. They perform some operation on the two operands and return a result.Here are some examples of binary operators in JavaScript:
+
+1. Addition operator (+): This operator adds two numbers.
+var x=5; var y=x+3; console.log(y); //output:8
+
+2. Subtraction operator (-): This operator subtracts one number from another.
+var x=5; var y=x-3; console.log(y); //output:2
+
+3. Multiplication operator (*): This operator multiplies two numbers.
+var x=5; var y=x*3; console.log(y); //output:15
+
+4. Division operator (/): This operator divides one number by another.
+var x=5; var y=x/3; console.log(y); //output:1.666
+
+5. Modulus operator (%): This operator returns the remainder of a division operation.
+var x=5; var y=x%3; console.log(y); //output:2
+
+6. Exponentiation operator (**): This operator raises one number to the power of another.
+var x=5; var y=x**3; console.log(y); //output:125
+
+7. Bitwise AND operator (&): This operator performs a bitwise AND operation on two numbers.
+var x=5; var y=x&3; console.log(y); //output:1
+
+8. Bitwise OR operator (|): This operator performs a bitwise OR operation on two numbers.
+var x=5; var y=x|3; console.log(y); //output:7
+
+9. Bitwise XOR operator (^): This operator performs a bitwise XOR operation on two numbers.
+var x=5; var y=x^3; console.log(y); //output:6
+
+10. Bitwise left shift operator (<<): This operator shifts the bits of a number to th
+e left.
+var x=5; var y=x<<2; console.log(y); //output:20
+
+11. Bitwise right shift operator (>>): This operator shifts the bits of a number to th
+e right.
+var x=5; var y=x>>2; console.log(y); //output:1
+
+12. Equality operator (==): This operator checks if two values are equal.
+var x=5; var y=x==3; console.log(y); //output:false
+
+13. Inequality operator (!=): This operator checks if two values are not equal.
+var x=5; var y=x!=3; console.log(y); //output:true
+
+14. Strict equality operator (===): This operator checks if two values are equal and of the same type.
+var x=5; var y=x===3; console.log(y); //output:false
+
+15. Strict inequality operator (!==): This operator checks if two values are not equal or of different types.
+var x=5; var y=x!==3; console.log(y); //output:true
+
+16. Greater than operator (>): This operator checks if one value is greater than another.
+var x=5; var y=x>3; console.log(y); //output:true
+
+17. Less than operator (<): This operator checks if one value is less than another.
+var x=5; var y=x<3; console.log(y); //output:false
+
+18. Greater than or equal to operator (>=): This operator checks if one value is greater than or equal to another.
+var x=5; var y=x>=3; console.log(y); //output:true
+
+19. Less than or equal to operator (<=): This operator checks if one value is less than
+or equal to another.
+var x=5; var y=x<=3; console.log(y); //output:false
+
+20. Logical AND operator (&&): This operator checks if two conditions are true.
+var x=5; var y=x>3&&x<10; console.log(y); //output
+
+21. Logical OR operator (||): This operator checks if at least one condition is true.
+var x=5; var y=x>3||x<10; console.log(y); //output
+
+22. Logical NOT operator (!): This operator checks if a condition is false.
+var x=5; var y=!x>3; console.log(y); //output
+
+23. Conditional operator (?:): This operator is used for conditional expressions.
+var x=5; var y=x>3?x*2:x; console.log(y); //
